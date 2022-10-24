@@ -23,10 +23,6 @@ li {
     padding: 12px;
 }
 
-/* .nav__home {
-    background-image: ;
-} */
-
 .nav__row {
     margin: 0 auto;
     width: 100%;
@@ -49,15 +45,35 @@ li {
 
 .contact {
     padding: 8px 32px;
-    background-color: #e91515;
-    color: #fff;
     font-weight: 700;
     border-radius: 50px;
 }
 
-/* .nav__link--home {
-    
-} */
+/* HOME */
+
+.contact__home {
+    color: #fff;
+    background-color: #e91515;
+}
+
+/* MOVIES */
+
+.bg-img {
+    background-image: url(./assets/bloodyBackground.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.contact__movies {
+    color: #000;
+    background-color: #fff;
+}
+
+.nav__link--movies {
+    /* color: #fff; */
+}
 
 /* ====================    LANDING PAGE     ==================== */
 
