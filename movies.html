@@ -4,17 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/914dfb5281.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     <title>Movies</title>
 </head>
 <body>
-    <div class="nav nav__movies nav__row bg-img">
-        <img class="logo" src="./assets/logo.png" alt="Top Movies">
-        <ul class="nav__links">
-            <li class="nav__link nav__link--movies">Home</li>
-            <li class="nav__link nav__link--movies">Movies</li>
-            <li class="nav__link nav__link--movies contact contact__movies">Contact</li>
-        </ul>
+    <div class="nav__movies">
+        <div class="nav nav__row">
+            <img class="logo__movies" src="./assets/logo.png" alt="Top Movies">
+            <ul class="nav__links">
+                <li><a class="nav__link nav__link--movies" href="index.html">Home</a></li>
+                <li><a class="nav__link nav__link--movies" href="">Movies</a></li>
+                <li class="nav__link nav__link--movies contact contact__movies">Contact</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h1 class="heading__movies">
+                Browse Our Movies
+            </h1>
+            <div class="search-bar__wrapper">
+                <input class="search-bar__movies" placeholder="Search by movie name" type="text">
+                <div class="search-icon__wrapper">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="bg-img"></div>
+        </div>
     </div>
+    <section id="search" class="row">
+        <div class="filter-content">
+            <h1 class="title">
+                Search results:
+            </h1>
+        </div>
+            <div class="movies__container">
+                <div class="movies__wrapper">
+                    <div class="movie">
+                        <figure class="movie__poster">
+                            <img class="poster" src="./assets/poster.jpg" alt="">
+                        </figure>
+                        <div class="movie__description">
+                            <h3 class="movie__title"></h3>
+                            <h4 class="year"></h4>
+                            <a href="" class="imdb"></a>
+                        </div>
+                    </div>
+                    <!-- <div class="movie">
+                        <figure class="movie__poster">
+                            <img class="poster" src="./assets/poster.jpg" alt="">
+                        </figure>
+                        <div class="movie__description">
+                            <h3 class="movie__title">movie title</h3>
+                            <h4 class="year">2000</h4>
+                            <a href="" class="imdb">IMDB</a>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <figure class="movie__poster">
+                            <img class="poster" src="./assets/poster.jpg" alt="">
+                        </figure>
+                        <div class="movie__description">
+                            <h3 class="movie__title">movie title</h3>
+                            <h4 class="year">2000</h4>
+                            <a href="" class="imdb">IMDB</a>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <figure class="movie__poster">
+                            <img class="poster" src="./assets/poster.jpg" alt="">
+                        </figure>
+                        <div class="movie__description">
+                            <h3 class="movie__title">movie title</h3>
+                            <h4 class="year">2000</h4>
+                            <a href="" class="imdb">IMDB</a>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <figure class="movie__poster">
+                            <img class="poster" src="./assets/poster.jpg" alt="">
+                        </figure>
+                        <div class="movie__description">
+                            <h3 class="movie__title">movie title</h3>
+                            <h4 class="year">2000</h4>
+                            <a href="" class="imdb">IMDB</a>
+                        </div>
+                    </div>
+                    <div class="movie">
+                        <figure class="movie__poster">
+                            <img class="poster" src="./assets/poster.jpg" alt="">
+                        </figure>
+                        <div class="movie__description">
+                            <h3 class="movie__title">movie title</h3>
+                            <h4 class="year">2000</h4>
+                            <a href="" class="imdb">IMDB</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+    </section>
 </body>
 </html>
